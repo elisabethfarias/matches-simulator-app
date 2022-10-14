@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        tools:context=".DetailActivity">
+        tools:context=".ui.DetailActivity">
 
         <!-- Adding an image to the prominent top app bar:
              Reference: https://material.io/components/app-bars-top/android#regular-top-app-bar -->
@@ -168,4 +168,3 @@
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>
-
