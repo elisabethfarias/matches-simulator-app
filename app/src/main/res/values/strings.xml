@@ -2,4 +2,5 @@
     <string name="app_name">Simulator</string>
     <string name="txt_simulate">Match simulate button.</string>
     <string name="txt_versus" translatable="false">X</string>
+    <string name="error_api">Unexpected error.</string>
 </resources>
