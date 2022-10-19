@@ -1,6 +1,7 @@
 package br.com.simulador.ui;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -49,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<List<Match>> call, Response<List<Match>> response) {
                 if(response.isSuccessful()) {
                     List<Match> matches = response.body();
+                   // Log.i("SIMULATOR", "Deu tudo certo " + matches.size());
                 } else {
                    showErrorMessage();
                 }
