@@ -7,6 +7,10 @@ import br.com.simulador.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
 
+    object Extra {
+        const val MATCH = "EXTRA_MATCH"
+    }
+
     private lateinit var binding: ActivityDetailBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
